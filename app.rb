@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'sinatra/json'
 require 'json'
+require 'pry'
 
 configure do
   set :public_folder, 'public'
@@ -25,6 +26,5 @@ get '/' do
 end
 
 get '/dishes/random.json' do
-  content_type :json
-  # serve up a random dish from the `dishes` array
+  { dish: dishes.sample }.to_json
 end

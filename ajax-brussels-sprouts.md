@@ -1,15 +1,15 @@
-##OMG I need a random Brussels Sprout recipe STAT!
+## OMG I need a random Brussels Sprout recipe STAT!
 
-###Instructions
+### Instructions
 Ok, we have our good dishes finally after all that work in Javascript. Now we need to display a random one to the user using Ajax!
 
 * Update the root `app.rb` and the `public/javascripts/app.js` files so we expect the behavior in output below after clicking on `Click here for a random dish!`
 
-###Learning Goals
+### Learning Goals
 * Understand the basics of Ajax
 * Utilize on-click behavior to send JSON data from server to client
 
-###Input
+### Input
 * Use the following array called `dishes` to serve as your input:
 
 ```
@@ -27,7 +27,7 @@ Ok, we have our good dishes finally after all that work in Javascript. Now we ne
   "Brussels Sprouts and Egg Salad with Hazelnuts"]
 ```
 
-###Output
+### Output
 
 If we click on `Click here for a random dish!` we should expect something like the following output:
 
@@ -37,5 +37,5 @@ Clicking the link again would provide another random Brussels Sprout recipe:
 
 ![alt](http://i.imgur.com/tr7LGhJ.png)
 
-###Tips
+### Tips
 * Run bundle from your terminal to have the right dependencies installed (like the sinatra gem).
